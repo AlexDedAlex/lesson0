@@ -1,0 +1,16 @@
+my_dict = {'Alex': 1963, 'Helen': 1958, 'Sasha':2010}
+print(my_dict)
+print(my_dict['Helen'])
+print(my_dict.get('Max'))
+my_dict.update({'Max': 1984, 'Marina': 1981})
+a = my_dict.pop('Max')
+print(my_dict)
+print(a)
+print(my_dict)
+my_set = {1, 'apple', 2, 7.77, 3, 1, 1, }
+print(my_set)
+my_set.update('K')
+my_set.add(9)
+print(my_set)
+my_set.discard(7.77)
+print(my_set)
